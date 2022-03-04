@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius:5px;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    
+    margin-bottom: 30px;
+  }
+  hr.divider {
+    border-top: 8px solid #bbb;
+    border-radius:5px; 
+  }
+
+.hero-background{
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0,0,0,.6)),  url(/Images/jojojobackground.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.herotitle{
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.herocontent{
+    height: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.herotitle p{
+    color: #fff;
+    font-size: 1.5rem;
+    width: 1000px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.herotitle h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.5rem;
+    width: 660px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+.herotitle h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    width: 660px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.nav-bar-ctn a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+.nav-bar-ctn li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    background: #000;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-bar-ctn{
+    display: flex;
+    margin-right: 40px;
+}
+
+.container-logo img{
+    height: 80px;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+  div.gallery img {
+    width: 400px;
+    height: 500px;
+  }
+  
+  div.desc {
+    width: 500px;
+    text-align: center;
+    color: white;
+  }
+  p.desc {
+    width: 500px;
+    text-align: center;
+    color: white;
+  }
+  .hero-image{
+      width: 10px;
+      height: 10px;
+  }
+  .center h2{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+  .center h3{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+  }
+  
+  .center p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 650px;
+  }
+
+  .center{
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
